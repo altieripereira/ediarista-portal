@@ -98,6 +98,7 @@ return [
         ],
         'heroku_mysql_connection' => [
             'driver' => 'mysql',
+            'port' => env('DB_PORT', '3306'),
             'host' => $host,
             'database' => $database,
             'username' => $username,
