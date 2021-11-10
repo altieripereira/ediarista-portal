@@ -44,10 +44,6 @@
   <input value="{{ @$diarista->estado }}" name="estado" type="text" class="form-control" id="estado" maxlength="2" />
 </div>
 <div class="mb-3">
-  <label for="codigo_ibge" class="form-label">Código IBGE</label>
-  <input value="{{ @$diarista->codigo_ibge }}" name="codigo_ibge" type="number" class="form-control" id="codigo_ibge" maxlength="20" />
-</div>
-<div class="mb-3">
   <label for="foto_usuario" class="form-label">Foto</label>
   <input name="foto_usuario" type="file" class="form-control" id="foto_usuario" maxlength="20" />
 </div>
