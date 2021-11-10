@@ -22,7 +22,7 @@ return [
     */
 
     // 'default' => env('DB_CONNECTION', 'mysql'),
-    'default' => env('DB_CONNECTION', 'heroku_mysql_connection'),
+    'default' => env('DB_CONNECTION', 'heroku'),
     /*
     |--------------------------------------------------------------------------
     | Database Connections
@@ -96,7 +96,7 @@ return [
             'prefix' => '',
             'prefix_indexes' => true,
         ],
-        'heroku_mysql_connection' => [
+        'heroku' => [
             'driver' => 'mysql',
             'port' => env('DB_PORT', '3306'),
             'host' => $host,
